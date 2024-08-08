@@ -1,0 +1,50 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.contornoo {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 55px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contornoo.dark-mode {
+    background-color: #212020;
+    color: #fefefe;
+}
+
+.contornoo.dark-mode input,
+.contornoo.dark-mode select,
+.contornoo.dark-mode button {
+    background-color: #494848;
+    color: #ffffff;
+    border: 1px solid #262525;
+}
+
+.contornoo input,
+.contornoo select,
+.contornoo button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.arbolhoja {
+    margin-top: 20px;
+}
